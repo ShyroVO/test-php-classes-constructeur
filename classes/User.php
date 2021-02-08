@@ -6,7 +6,7 @@ class User {
     public function setOwner(User $user){
         $this->owner = $user;
     }
-    
+
     public function getOwner(): User {
         return $this->owner;
     }
